@@ -1,6 +1,9 @@
+//To be ran on Arduino IDE
 #include <Wire.h>
+//Make sure necessary packages are downloaded
 #include <Adafruit_SSD1306.h>
 
+//Make Sure Address is Correct
 #define OLED_ADDRESS 0x3C
 
 Adafruit_SSD1306 display(128, 64, &Wire, OLED_ADDRESS);
