@@ -356,19 +356,21 @@ void heart() {
 
   int x1 = 44;
   int y1 = 27;
+  int yt1 = 29;
   int radius1 = 10;
 
   // Draw the left heart
-  display.fillTriangle(x1 - radius1, y1, x1, y1 + radius1, x1 + radius1, y1, WHITE);
+  display.fillTriangle(x1 - radius1, yt1, x1, yt1 + radius1, x1 + radius1, yt1, WHITE);
   display.fillCircle(x1 - 5, y1, 5.5, WHITE);
   display.fillCircle(x1 + 5, y1, 5.5, WHITE);
 
   int x2 = 84;
   int y2 = 27;
+  int yt2 = 29;
   int radius2 = 10;
 
   // Draw the right heart
-  display.fillTriangle(x2 - radius2, y2, x2, y2 + radius2, x2 + radius2, y2, WHITE);
+  display.fillTriangle(x2 - radius2, yt2, x2, yt2 + radius2, x2 + radius2, yt2, WHITE);
   display.fillCircle(x2 - 5, y2, 5.5, WHITE);
   display.fillCircle(x2 + 5, y2, 5.5, WHITE);
 
@@ -397,12 +399,12 @@ void heart() {
 
 
   // Draw the left heart
-  display.fillTriangle(x1 - radius1, y1, x1, y1 + radius1, x1 + radius1, y1, WHITE);
+  display.fillTriangle(x1 - radius1, yt1, x1, yt1 + radius1, x1 + radius1, yt1, WHITE);
   display.fillCircle(x1 - 5, y1, 5.5, WHITE);
   display.fillCircle(x1 + 5, y1, 5.5, WHITE);
 
   // Draw the right heart
-  display.fillTriangle(x2 - radius2, y2, x2, y2 + radius2, x2 + radius2, y2, WHITE);
+  display.fillTriangle(x2 - radius2, yt2, x2, yt2 + radius2, x2 + radius2, yt2, WHITE);
   display.fillCircle(x2 - 5, y2, 5.5, WHITE);
   display.fillCircle(x2 + 5, y2, 5.5, WHITE);
 
@@ -422,12 +424,12 @@ void heart() {
   display.clearDisplay();
 
   // Draw the left heart
-  display.fillTriangle(x1 - radius1, y1, x1, y1 + radius1, x1 + radius1, y1, WHITE);
+  display.fillTriangle(x1 - radius1, yt1, x1, yt1 + radius1, x1 + radius1, yt1, WHITE);
   display.fillCircle(x1 - 5, y1, 5.5, WHITE);
   display.fillCircle(x1 + 5, y1, 5.5, WHITE);
 
   // Draw the right heart
-  display.fillTriangle(x2 - radius2, y2, x2, y2 + radius2, x2 + radius2, y2, WHITE);
+  display.fillTriangle(x2 - radius2, yt2, x2, yt2 + radius2, x2 + radius2, yt2, WHITE);
   display.fillCircle(x2 - 5, y2, 5.5, WHITE);
   display.fillCircle(x2 + 5, y2, 5.5, WHITE);
 
