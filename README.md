@@ -1,5 +1,5 @@
 # StrazzTunedBuddy
-## Inspired from a [Dasai Mochi](https://dasai.com.au/pages/meet-mochi)
+## Inspired from a [Dasai Mochi](https://dasai.com.au/pages/meet-mochi) :robot:
 
 ###### What is it?
 It is a little driving companion for your car based off the [Dasai Mochi](https://dasai.com.au/pages/meet-mochi) but OpenSource!
